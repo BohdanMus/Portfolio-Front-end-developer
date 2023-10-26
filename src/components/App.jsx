@@ -21,8 +21,8 @@ const items = [
     name: 'Проект 2',
     image: `${process.env.PUBLIC_URL}/images/Kancplus.png`,
     description: 'Опис проекту 2',
-    link1: 'посилання_3',
-    link2: 'посилання_4',
+    link1: 'https://bohdanmus.github.io/Kanc-plus/',
+    link2: 'https://github.com/BohdanMus/Kanc-plus',
   },
   {
     name: 'Проект 3',

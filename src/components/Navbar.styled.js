@@ -1,20 +1,58 @@
 import styled from 'styled-components';
 
 export const NavBarContainer = styled.div`
-  flex: 20%;
+  flex: 25%;
   display: flex;
-  align-items: center;
   justify-content: center;
   background: lightblue;
 `;
 
-export const Title = styled.h1`
-  font-size: 24px;
-`;
-
-export const Text = styled.h2`
-  font-size: 16px;
+export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 12px;
+  justify-content: center;
+`;
+
+export const Title = styled.h1`
+  font-size: 24px;
+  font-weight: bold;
+`;
+export const TitlePosition = styled.h2`
+  font-size: 16px;
+  font-weight: bold;
+`;
+
+export const Text = styled.h2`
+  font-size: 12px;
+  font-weight: bold;
+`;
+
+export const StyledList = styled.ul`
+  /* list-style: none; */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+`;
+
+export const StyledListItem = styled.li`
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+`;
+
+export const TechListItem = styled.li`
+  font-size: 12px;
+  font-weight: bold;
+`;
+
+export const StyledLink = styled.a`
+  color: inherit;
+`;
+
+export const StyledIcon = styled.i`
+  margin-right: 10px;
 `;

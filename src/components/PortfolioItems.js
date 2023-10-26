@@ -1,4 +1,4 @@
-import { nanoid } from 'nanoid'; // Імпорт бібліотеки nanoid
+import { nanoid } from 'nanoid';
 import { useState } from 'react';
 import { Button, Carousel, Modal } from 'react-bootstrap';
 import { MainContainer } from './PortfolioItems.styled';
@@ -26,7 +26,6 @@ const PortfolioItems = ({ items }) => {
               src={item.image}
               alt={item.name}
               onClick={() => openModal(item)}
-              // style={{ width: '100%', height: '100%' }}
             />
           </Carousel.Item>
         ))}
