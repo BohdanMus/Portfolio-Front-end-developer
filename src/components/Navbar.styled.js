@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const NavBarContainer = styled.div`
-  flex: 25%;
+  flex: 20%;
   display: flex;
   justify-content: center;
   background: lightblue;
@@ -12,7 +12,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 12px;
-  justify-content: center;
+  padding: 20px;
 `;
 
 export const Title = styled.h1`
@@ -22,11 +22,14 @@ export const Title = styled.h1`
 export const TitlePosition = styled.h2`
   font-size: 16px;
   font-weight: bold;
+  margin-bottom: 16px;
 `;
 
 export const Text = styled.h2`
   font-size: 12px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
 `;
 
 export const StyledList = styled.ul`
@@ -47,6 +50,7 @@ export const StyledListItem = styled.li`
 export const TechListItem = styled.li`
   font-size: 12px;
   font-weight: bold;
+  margin-left: 10px;
 `;
 
 export const StyledLink = styled.a`
